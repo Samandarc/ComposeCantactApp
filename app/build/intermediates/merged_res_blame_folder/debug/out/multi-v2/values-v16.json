@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "uz.gita.composecantactapp-mergeDebugResources-50:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\shaka\\.gradle\\caches\\transforms-3\\de350cf00ea010d2c1568d58eb105339\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}
