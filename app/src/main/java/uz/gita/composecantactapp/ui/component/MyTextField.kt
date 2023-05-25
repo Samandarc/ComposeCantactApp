@@ -62,7 +62,7 @@ fun MyTextField(modifier: Modifier = Modifier, placeholder: String = "Type here"
     )
 }
 
-@Preview
+@Preview(showSystemUi = true)
 @Composable
 fun MyTextFieldPreview() {
     var value by remember {

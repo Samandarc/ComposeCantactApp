@@ -98,7 +98,11 @@ fun AddContactScreenContent(
                 .padding(vertical = 16.dp, horizontal = 8.dp), onClick = {
                 viewModel.addContact(fname, lname, phone)
             }) {
-                Text(text = "Add Contact")
+                Text(
+                    text = "Add Contact",
+                    modifier = Modifier,
+
+                )
             }
 
         }
@@ -111,7 +115,7 @@ fun AddContactScreenContent(
 fun AddContactScreenPreview() {
     ContactAppComposeTheme {
         Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-//            AddContactScreenContent()
+
         }
     }
 }
